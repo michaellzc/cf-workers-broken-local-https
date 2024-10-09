@@ -1,0 +1,8 @@
+sourcegraph.test:4443 {
+	tls internal
+	respond "Hello, world!"
+}
+
+sourcegraph:test:8888 {
+    respond "Hello, world!"
+}
